@@ -1,0 +1,94 @@
+[gd_scene load_steps=3 format=3 uid="uid://cv2r55m7qtsy6"]
+
+[ext_resource type="FontFile" uid="uid://biwett4n61ppj" path="res://assets/Poppins-Medium.ttf" id="1_4856t"]
+[ext_resource type="Script" path="res://audio_demo.gd" id="1_f3j3j"]
+
+[node name="AudioDemo" type="MarginContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+script = ExtResource("1_f3j3j")
+sound_dir = "res://assets"
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 2
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 1132.0
+offset_bottom = 628.0
+
+[node name="GridContainer" type="GridContainer" parent="CenterContainer"]
+layout_mode = 2
+offset_left = 556.0
+offset_top = 304.0
+offset_right = 556.0
+offset_bottom = 304.0
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 2
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="CanvasLayer/HBoxContainer"]
+layout_mode = 2
+offset_left = 391.0
+offset_right = 617.0
+offset_bottom = 38.0
+theme_override_fonts/font = ExtResource("1_4856t")
+theme_override_font_sizes/font_size = 24
+text = "Available Streams:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="CanvasLayer/HBoxContainer"]
+layout_mode = 2
+offset_left = 621.0
+offset_right = 636.0
+offset_bottom = 38.0
+theme_override_fonts/font = ExtResource("1_4856t")
+theme_override_font_sizes/font_size = 24
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VSeparator" type="VSeparator" parent="CanvasLayer/HBoxContainer"]
+layout_mode = 2
+offset_left = 640.0
+offset_right = 650.0
+offset_bottom = 38.0
+theme_override_constants/separation = 10
+
+[node name="Label4" type="Label" parent="CanvasLayer/HBoxContainer"]
+layout_mode = 2
+offset_left = 654.0
+offset_right = 741.0
+offset_bottom = 38.0
+theme_override_fonts/font = ExtResource("1_4856t")
+theme_override_font_sizes/font_size = 24
+text = "Queue:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="CanvasLayer/HBoxContainer"]
+layout_mode = 2
+offset_left = 745.0
+offset_right = 760.0
+offset_bottom = 38.0
+theme_override_fonts/font = ExtResource("1_4856t")
+theme_override_font_sizes/font_size = 24
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
