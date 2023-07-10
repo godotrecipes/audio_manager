@@ -18,17 +18,9 @@ sound_dir = "res://assets"
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 2
-offset_left = 20.0
-offset_top = 20.0
-offset_right = 1132.0
-offset_bottom = 628.0
 
 [node name="GridContainer" type="GridContainer" parent="CenterContainer"]
 layout_mode = 2
-offset_left = 556.0
-offset_top = 304.0
-offset_right = 556.0
-offset_bottom = 304.0
 theme_override_constants/h_separation = 10
 theme_override_constants/v_separation = 10
 columns = 2
@@ -44,9 +36,6 @@ alignment = 1
 
 [node name="Label" type="Label" parent="CanvasLayer/HBoxContainer"]
 layout_mode = 2
-offset_left = 391.0
-offset_right = 617.0
-offset_bottom = 38.0
 theme_override_fonts/font = ExtResource("1_4856t")
 theme_override_font_sizes/font_size = 24
 text = "Available Streams:"
@@ -55,9 +44,6 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="CanvasLayer/HBoxContainer"]
 layout_mode = 2
-offset_left = 621.0
-offset_right = 636.0
-offset_bottom = 38.0
 theme_override_fonts/font = ExtResource("1_4856t")
 theme_override_font_sizes/font_size = 24
 text = "0"
@@ -66,16 +52,10 @@ vertical_alignment = 1
 
 [node name="VSeparator" type="VSeparator" parent="CanvasLayer/HBoxContainer"]
 layout_mode = 2
-offset_left = 640.0
-offset_right = 650.0
-offset_bottom = 38.0
 theme_override_constants/separation = 10
 
 [node name="Label4" type="Label" parent="CanvasLayer/HBoxContainer"]
 layout_mode = 2
-offset_left = 654.0
-offset_right = 741.0
-offset_bottom = 38.0
 theme_override_fonts/font = ExtResource("1_4856t")
 theme_override_font_sizes/font_size = 24
 text = "Queue:"
@@ -84,9 +64,6 @@ vertical_alignment = 1
 
 [node name="Label3" type="Label" parent="CanvasLayer/HBoxContainer"]
 layout_mode = 2
-offset_left = 745.0
-offset_right = 760.0
-offset_bottom = 38.0
 theme_override_fonts/font = ExtResource("1_4856t")
 theme_override_font_sizes/font_size = 24
 text = "0"
