@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cv2r55m7qtsy6"]
 
 [ext_resource type="FontFile" uid="uid://biwett4n61ppj" path="res://assets/Poppins-Medium.ttf" id="1_4856t"]
-[ext_resource type="Script" path="res://audio_demo.gd" id="1_f3j3j"]
+[ext_resource type="Script" uid="uid://cmu1vnfj2xavr" path="res://audio_demo.gd" id="1_f3j3j"]
 
 [node name="AudioDemo" type="MarginContainer"]
 anchors_preset = 15
